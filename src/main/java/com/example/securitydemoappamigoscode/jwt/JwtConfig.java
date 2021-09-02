@@ -2,7 +2,9 @@ package com.example.securitydemoappamigoscode.jwt;
 
 import com.google.common.net.HttpHeaders;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 @ConfigurationProperties(prefix = "application.jwt")
 public class JwtConfig {
 
